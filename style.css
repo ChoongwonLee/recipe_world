@@ -1,3 +1,124 @@
-h1 {
-  color: blue
+body {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #fff;
+  color: #444;
+}
+
+h1, p {
+  margin: 0 0 1em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 55%;
+  height: auto;
+  margin-bottom: 5em;
+}
+
+/* make a grid */
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  /* grid-gap: 10px; */
+}
+
+.wrapper .header {
+  background-color: #9403fc;
+  color: #fff;
+  margin-bottom: 3em;
+}
+
+.wrapper .header p {
+  text-align: center;
+  font-size: 400%;
+}
+
+.wrapper .header a {
+  color: #fff;
+  font-size: 120%;
+}
+
+.nav {
+  display: grid;
+  justify-content: space-around;
+  width: 40%;
+  grid-template-columns: repeat(3, 5em);
+  margin: 0 auto;
+}
+
+.content {
+  display: grid;
+  justify-items: center;
+  width: 60%;
+}
+
+.content a {
+  color: red;
+}
+
+.recipes {
+  background-color: #444;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 100%;
+}
+
+.recipe-list {
+  align-items: stretch;
+  justify-items: stretch;
+  align-self: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 90%;
+  height: 8em;
+  margin-bottom: 20px;
+}
+
+.recipe-img {
+  flex-basis: 10%;
+}
+
+.recipe-img-item {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.recipe-content {
+  padding: 20px;
+  flex-basis: 90%;
+  width: 100%;
+}
+
+.recipe-title,
+.recipe-description {
+  margin: 0;
+  padding: 0;
+}
+
+.recipe-description {
+  margin-top: 4px;
+}
+
+.footer {
+  text-align: center;
+  color: #939199;
+}
+
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
 }
