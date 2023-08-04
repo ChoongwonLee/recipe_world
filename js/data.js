@@ -1,4 +1,4 @@
-const recipes = [
+export const recipes = [
   {
     name: "Magic Cake",
     photo: "images/magic_cake.png",
@@ -63,36 +63,3 @@ const recipes = [
     ],
   },
 ];
-
-const gethtml = (item) => {
-  return `
-    <div class="recipe-list">
-        <div class="recipe-img">
-          <a href="detailed_recipe.html">
-            <img
-              class="recipe-img-item"
-              src="${item.photo}"
-              alt="${item.photo}"
-            />
-          </a>
-        </div>
-        <div class="recipe-content">
-          <h3 class="recipe-title">${item.name}</h3>
-          <p class="recipe-description">
-            ${item.directions}
-          </p>
-        </div>
-      </div>
-    </div>
-  `;
-};
-
-for (let i = 0; i < recipes.length; i++) {
-  let htmlString = gethtml(recipes[i]);
-  let fragmentFromString = (strhtml) =>
-    document.createRange().createContextualFragment(strhtml);
-
-  let fragment = fragmentFromString(htmlString);;
-  document.getElementById("recipes-area").appendChild(fragment);
-}
-
