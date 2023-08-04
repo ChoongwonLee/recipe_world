@@ -1,0 +1,67 @@
+{
+  "recipes": [
+    {
+      "name": "Magic Cake",
+      "photo": "images/magic_cake.png",
+      "ingredients": [
+        "4 eggs (at room temperature)",
+        "3/4 cup sugar",
+        "8 tablespoon butter (unsalted and melted )",
+        "1 teaspoon vanilla extract",
+        "3/4 cup all-purpose flour",
+        "2 cups milk (lukewarm *)",
+        "powdered sugar (for dusting)"
+      ],
+      "directions": [
+        "Aenean orci metus, porta ac felis ut, convallis eleifend magna. Pellentesque convallis velit nec metus tristique, vel finibus risus condimentum.",
+        "Mauris ac tortor efficitur, dignissim felis id, tincidunt odio. Sed malesuada dictum quam, sed suscipit eros fringilla ac. Cras malesuada augue ut ornare consectetur.",
+        "Vestibulum eu lorem aliquam, suscipit tortor eget, placerat urna.",
+        "Suspendisse porttitor ultricies enim, sit amet porta ante dignissim vitae.",
+        "Nullam scelerisque massa pharetra venenatis molestie.",
+        "Cras at aliquet odio, id viverra nunc. Fusce blandit interdum dui, et faucibus ipsum ullamcorper sit amet."
+      ]
+    },
+    {
+      "name": "Easy Vegeterian Pasta",
+      "photo": "images/veggie_pasta.png",
+      "ingredients": [
+        "600g pasta noodle",
+        "3/4 cup salt",
+        "100g cheese slice",
+        "5 spoons olive oil",
+        "200g grape tomatos",
+        "100g spinach",
+        "150g tofu"
+      ],
+      "directions": [
+        "Aenean orci metus, porta ac felis ut, convallis eleifend magna. Pellentesque convallis velit nec metus tristique, vel finibus risus condimentum.",
+        "Mauris ac tortor efficitur, dignissim felis id, tincidunt odio. Sed malesuada dictum quam, sed suscipit eros fringilla ac. Cras malesuada augue ut ornare consectetur.",
+        "Vestibulum eu lorem aliquam, suscipit tortor eget, placerat urna.",
+        "Suspendisse porttitor ultricies enim, sit amet porta ante dignissim vitae.",
+        "Nullam scelerisque massa pharetra venenatis molestie.",
+        "Cras at aliquet odio, id viverra nunc. Fusce blandit interdum dui, et faucibus ipsum ullamcorper sit amet."
+      ]
+    },
+    {
+      "name": "Korean Fried Chicken",
+      "photo": "images/korean_chicken.png",
+      "ingredients": [
+        "one whole chicken",
+        "0.5 litre olive oil",
+        "500g frying powder",
+        "300g Korean chicken souce",
+        "3/4 cup soy souce",
+        "0.5 cup milk",
+        "powdered sugar"
+      ],
+      "directions": [
+        "Aenean orci metus, porta ac felis ut, convallis eleifend magna. Pellentesque convallis velit nec metus tristique, vel finibus risus condimentum.",
+        "Mauris ac tortor efficitur, dignissim felis id, tincidunt odio. Sed malesuada dictum quam, sed suscipit eros fringilla ac. Cras malesuada augue ut ornare consectetur.",
+        "Vestibulum eu lorem aliquam, suscipit tortor eget, placerat urna.",
+        "Suspendisse porttitor ultricies enim, sit amet porta ante dignissim vitae.",
+        "Nullam scelerisque massa pharetra venenatis molestie.",
+        "Cras at aliquet odio, id viverra nunc. Fusce blandit interdum dui, et faucibus ipsum ullamcorper sit amet."
+      ]
+    }
+  ]
+}
